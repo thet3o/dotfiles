@@ -12,7 +12,8 @@ return {
 		    "rust_analyzer", 
 		    "clangd",
 		    "ts_ls",
-		    "pyright"
+		    "pyright",
+		    "bashls",
 	    }
 	})
     end,
