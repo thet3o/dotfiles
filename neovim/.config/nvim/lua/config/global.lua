@@ -10,3 +10,5 @@ vim.diagnostic.config({
   update_in_insert = true,
   severity_sort = false,
 })
+
+vim.keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>")

@@ -7,7 +7,13 @@ return {
 
 	mason.setup()
 	masonlspconfig.setup({
-	    ensure_installed = { "jdtls" , "rust_analyzer", "clangd" }
+	    ensure_installed = { 
+		    "jdtls" , 
+		    "rust_analyzer", 
+		    "clangd",
+		    "ts_ls",
+		    "pyright"
+	    }
 	})
     end,
 }

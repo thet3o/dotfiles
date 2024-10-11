@@ -43,8 +43,11 @@ return {
             matching = { disallow_symbol_nonprefix_matching = false }
         })
         local capabilities = require('cmp_nvim_lsp').default_capabilities()
-        require('lspconfig').jdtls.setup {
-            capabilities = capabilities
-          }
+        local servers = { "jdtls" , "pyright", "clangd", "ts_ls" }
+	for _, lsp in ipairs(servers) do 
+	    require('lspconfig')[lsp].setup {
+                capabilities = capabilities
+            }
+        end
     end,
 }
