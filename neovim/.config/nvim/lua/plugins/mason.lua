@@ -14,6 +14,7 @@ return {
 		    "ts_ls",
 		    "pyright",
 		    "bashls",
+            "dockerls",
 	    }
 	})
     end,
