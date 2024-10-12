@@ -23,7 +23,9 @@
   "nvim-tree.lua": { "branch": "master", "commit": "4a9e82d10a3715d0c3845e1d2f66ddfb8b711253" },
   "nvim-treesitter": { "branch": "master", "commit": "5a2ff8b7ca5470b1011ed82ef3fdd53139ffc467" },
   "nvim-web-devicons": { "branch": "master", "commit": "19d257cf889f79f4022163c3fbb5e08639077bd8" },
+  "overseer.nvim": { "branch": "master", "commit": "965f8159408cee5970421ad36c4523333b798502" },
   "plenary.nvim": { "branch": "master", "commit": "2d9b06177a975543726ce5c73fca176cedbffe9d" },
+  "rustaceanvim": { "branch": "master", "commit": "29f42cc149f915d771c550b6dfe7c788d856cf04" },
   "spring-boot.nvim": { "branch": "main", "commit": "218c0c26c14d99feca778e4d13f5ec3e8b1b60f0" },
   "telescope.nvim": { "branch": "master", "commit": "df534c3042572fb958586facd02841e10186707c" },
   "venv-selector.nvim": { "branch": "regexp", "commit": "e82594274bf7b54387f9a2abe65f74909ac66e97" }
